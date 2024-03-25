@@ -71,7 +71,7 @@ function setup() {
                 outputNodes[1].textContent = 'You win';
                 showResults();
             } else {
-                outputNodes[1].textContent = 'You lose';
+                outputNodes[1].textContent = 'Close but not quite';
                 if (tries > 1) {
                     pause();
                 } else {
